@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RPGGameProject.Core\RPGGameProject.Core.csproj" />
+    <ProjectReference Include="..\RPGGameProject.Domain\RPGGameProject.Domain.csproj" />
+    <ProjectReference Include="..\RPGGameProject.Infra\RPGGameProject.Infra.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
